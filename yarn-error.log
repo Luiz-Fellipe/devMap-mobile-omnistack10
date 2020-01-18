@@ -1,0 +1,47 @@
+Arguments: 
+  D:\Arquivos de programa\nodejs\node.exe D:\Arquivos de Programa\yarn\bin\yarn.js add react-navigation
+
+PATH: 
+  C:\Users\Luiz\bin;D:\Arquivos de Programa\Git\mingw64\bin;D:\Arquivos de Programa\Git\usr\local\bin;D:\Arquivos de Programa\Git\usr\bin;D:\Arquivos de Programa\Git\usr\bin;D:\Arquivos de Programa\Git\mingw64\bin;D:\Arquivos de Programa\Git\usr\bin;C:\Users\Luiz\bin;C:\Python27;C:\Python27\Scripts;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Arquivos de programa\Git\cmd;D:\Arquivos de programa\yarn\bin;D:\Arquivos de programa\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\Luiz\AppData\Local\Microsoft\WindowsApps;C:\Users\Luiz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Luiz\AppData\Local\Yarn\bin;C:\Users\Luiz\AppData\Roaming\npm;D:\Arquivos de Programa\Sdk\platform-tools;D:\Arquivos de Programa\Sdk\tools;D:\Arquivos de Programa\Git\usr\bin\vendor_perl;D:\Arquivos de Programa\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Area de Trabalho\Luiz Fellipe\rocketseat\semana-omnistack10\app\devMap\mobile\node_modules\@react-native-community\cli-tools\node_modules\.bin'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~36.0.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.0.0",
+      "@babel/core": "^7.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
